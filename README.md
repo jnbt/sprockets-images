@@ -1,5 +1,9 @@
 # Sprockets Images
 
+[![Gem Version](https://badge.fury.io/rb/sprockets-images.png)](https://rubygems.org/gems/sprockets-images)
+[![Build Status](https://travis-ci.org/jnbt/sprockets-images.png?branch=master)](https://travis-ci.org/jnbt/sprockets-images)
+[![Code Climate](https://codeclimate.com/github/jnbt/sprockets-images.png)](https://codeclimate.com/github/jnbt/sprockets-images)
+
 Extends the [Sprockets](https://github.com/sstephenson/sprockets) asset pipeline with (lossless) compression of images. The compression is done with the [image_optim](https://github.com/toy/image_optim) gem.
 
 ## Installation
