@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "sprockets", "~> 2.9"
+  gem.add_dependency "sprockets", "~> 2.10"
   gem.add_dependency "image_optim", "~> 0.7.3"
 
   gem.add_development_dependency "rake"
