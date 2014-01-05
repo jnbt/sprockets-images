@@ -6,6 +6,10 @@
 
 Extends the [Sprockets](https://github.com/sstephenson/sprockets) asset pipeline with (lossless) compression of images. The compression is done with the [image_optim](https://github.com/toy/image_optim) gem.
 
+## DEPRECATED
+
+This gem works for [image_optim](https://github.com/toy/image_optim) version below 0.10.0 but won't be updated any more as image_optim supports a sprockets integration by itself since [9f581a7e8799ffbfffbf01ff43b4916f512a9d9d](https://github.com/toy/image_optim/commit/9f581a7e8799ffbfffbf01ff43b4916f512a9d9d).
+
 ## Installation
 
 Add this line to your application's Gemfile:
